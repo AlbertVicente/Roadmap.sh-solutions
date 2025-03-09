@@ -30,3 +30,4 @@ Ensure the CV has a clean and easy-to-follow structure, making it ready for futu
 
 💡 *Following these guidelines will ensure your CV is well-prepared for future styling and enhancements!* 🚀
 
+https://roadmap.sh/projects/single-page-cv
