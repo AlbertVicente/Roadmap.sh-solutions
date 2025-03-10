@@ -7,22 +7,50 @@
     <title>Mi_Basic_Website_Portfolio</title>
 </head>
 <body>
-    <section class="container">
         <header>
             <nav class="navbar">
                 <ul>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Articles</li>
-                    <li>Contact</li>
+                    <a href="/Fronted/02Basic_HTML_Website/Projects.html"><li>Projects</li></a>
+                    <a href="/Fronted/02Basic_HTML_Website/Experience.html"><li>Experience</li></a>
+                    <a href="/Fronted/02Basic_HTML_Website/Contact.html"><li>Contact</li></a>
                 </ul>
             </nav>
+
+            <div>
+                <h1>Albert Vicente</h1>
+                <h3>Fronted Developer</h3>
+            </div>
         </header>
+        <hr>
+        <main>
+            <section class="Projects">
+               <h3>Projects</h3> 
+               <p>Html Only Portfolio</p>
+               <p>Html Only CV</p>
+               <p>....</p>
+            </section>
+            <hr>
+            <section class="Experience">
+                <h3>Experience</h3>
+                <p>Solved "all" the fronted projects</p>
+                <a href="https://roadmap.sh/u/bertodev08">View my porfile</a>
+            </section>
+            <hr>
+            <section class="contact">
+                <form class="formulario">
+                    <label for="User">Username:</label>
+                    <input required type="text" name="Username" placeholder="Username">
+                    <label for="Email">Email:</label>
+                    <input required type="email" name="Email" placeholder="Email" >
+                    <label for="Email">Phone:</label>
+                    <input required type="number" name="Phone" placeholder="+34 (Optional)" >
+                    <button>Sumbit</button>
+                </form>
+            </section>
+        </main>
 
-        <main></main>
-
-        <footer></footer>
-
-    </section>
+        <footer>
+            <p>&copy; 2025 BertoDev_08. All rights reserved.</p>
+        </footer>
 </body>
 </html>
